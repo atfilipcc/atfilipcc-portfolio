@@ -1,5 +1,16 @@
-import React from "react"
+import React from "react";
+import HeadHelmet from '../components/Head';
+import Layout from "../components/Layout";
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+const styles = './index.module.scss';
+
+const Home = () => (
+  <div>
+    <Layout>
+      <HeadHelmet title="Home" />
+      <h1 className={styles.header}>Filip Cordas</h1>
+    </Layout>
+  </div>
+);
+
+export default Home;

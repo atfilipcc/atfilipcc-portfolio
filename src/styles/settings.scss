@@ -1,0 +1,25 @@
+.express {
+  background-color: green !important;
+}
+
+.gatsby {
+  background-color: purple !important;
+}
+
+.react {
+  background-color: lightseagreen !important;
+}
+
+.sass {
+  background-color: hotpink !important;
+}
+
+.vanilla {
+  background-color: #ffc70f !important;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}

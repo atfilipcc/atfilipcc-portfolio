@@ -1,0 +1,48 @@
+$mainblue: #355070;
+$mainpurple: #6d597a;
+$mainorange: #ec5475;
+$mainlightorange: #e56b6f;
+$mainyellow: #ec9c71;
+
+.nav-item {
+  color: $mainyellow;
+  font-size: 1rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  background-color: #100e17;
+  padding: 2% 0 0 0;
+  margin-bottom: 5%;
+  justify-content: flex-start;
+}
+
+.header * {
+  background-color: #100e17;
+}
+
+.title {
+  color: $mainlightorange;
+  margin-right: 1rem;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: $mainyellow;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item:hover {
+  color: $mainlightorange;
+}
+
+.active-nav-item {
+  color: $mainlightorange;
+}

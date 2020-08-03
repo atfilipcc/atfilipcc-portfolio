@@ -1,0 +1,44 @@
+.items {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 0 1rem 0 0;
+}
+
+.item-wrapper {
+  margin: 1rem 1rem 1rem 0;
+  display: flex;
+  width: 750px;
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+}
+
+.item {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.item-wrapper * {
+  padding: 10px;
+  background: #242b35;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.button_wrapper {
+  display: flex;
+}
+
+.button_tech {
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0 7px 0 7px;
+  margin: 0 10px 0 0;
+  border: none;
+  color: #FFF;
+
+}
+
