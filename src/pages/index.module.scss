@@ -1,3 +1,6 @@
+$card: #8e87dc;
+$mainlightorange: #e56b6f;
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -18,8 +21,8 @@
 
 .nav-item {
   color: white;
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 1rem;
+  font-weight: 500;
   margin-right: 1.3rem;
   text-decoration: none;
 }
@@ -31,7 +34,7 @@
 }
 
 .nav-item:hover {
-  color: #FFF;
+  color: $mainlightorange;
 }
 
 .active-nav-item {

@@ -7,7 +7,7 @@ import styles from './index.module.scss';
 const Home = () => (
   <div className={styles.wrapper}>
     <HeadHelmet title="Home" />
-    <h1 className={styles.header}>Filip Cordas</h1>
+    <h1 className={styles.header}>welcome :-)</h1>
     <nav>
       <ul className={styles.navList}>
         <li>

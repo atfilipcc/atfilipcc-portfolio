@@ -1,3 +1,23 @@
+$card: #8e87dc;
+
 .title {
   color: white;
+}
+
+hr {
+  visibility: hidden;
+}
+
+.richText {
+  color: white;
+  width: 100%;
+  max-width: 650px;
+}
+
+.richText * {
+  padding: 0.5rem;
+}
+
+.icons * {
+  margin-right: 1rem;
 }

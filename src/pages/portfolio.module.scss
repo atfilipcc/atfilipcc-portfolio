@@ -1,15 +1,19 @@
+$card: #8e87dc;
+
 .items {
   display: flex;
-  width: 900px;
+  width: 100%;
+  max-width: 500px;
   flex-wrap: wrap;
   justify-content: left;
-  margin: 0 1rem 0 0;
+  margin: 0;
 }
 
 .item-wrapper {
-  margin: 1rem 1rem 1rem 0;
+  transition: all .2s ease-in-out;
+  margin: 1rem 0 1rem 0;
   display: flex;
-  width: 650px;
+  width: 100%;
   h2 {
     font-size: 1.8rem;
     margin-bottom: 0;
@@ -17,16 +21,20 @@
 }
 
 .item {
-  max-width: 100%;
-  min-width: 100%;
-  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08);
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  border-bottom:  6px solid darken($card, 10%);
+}
+
+.item-wrapper:hover {
+  transform: scale(1.03);
 }
 
 .item-wrapper * {
   padding: 10px;
-  background: #535c7a;
+  background: $card;
   color: whitesmoke;
-  border-radius: 6px;
   text-decoration: none;
 }
 
@@ -35,12 +43,12 @@
 }
 
 .button_tech {
+  border-radius: 6px;
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 600;
   padding: 0 7px 0 7px;
   margin: 0 10px 0 0;
   border: none;
   color: #FFF;
-
 }
 

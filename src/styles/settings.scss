@@ -23,12 +23,11 @@ $paletteblue: #535c7a;
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
     linear-gradient(120deg, #e79696 0%, #ffb88e 100%) no-repeat;
-    // linear-gradient(120deg, #dcecfe 0%, #f5e1ee 100%) no-repeat;
   background-position-x: 0%, 0%, 0%, 0%, 0%, 0%;
   background-position-y: 0%, 0%, 0%, 0%, 0%, 0%;
   background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
   background-size: auto, auto, auto, auto, auto, auto;
-  background-position: 10%, 30%, 50%, 70%, 90%, 0;
+  // background-position: 10%, 30%, 50%, 70%, 90%, 0;
   background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;
   background-attachment: fixed;
 }

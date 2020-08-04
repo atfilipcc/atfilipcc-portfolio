@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-body {
-  font-family: 'Open Sans', sans-serif;
-}
+
+$card: #8e87dc;
+
+
 .container ul {
   list-style: none;
   padding: 1px 100px;
-  height: 100vh;
+  height: 100%;
   color: #fff;
   font-size: 13px;
 }
 .container ul:before {
   content: '';
   width: 1px;
-  height: 100%;
+  height: 1000px;
   position: absolute;
   border-left: 4px dashed #fff;
 
@@ -20,12 +21,12 @@ body {
 .container ul li {
   position: relative;
   margin-left: 30px ;
-  background: #535c7a !important;
+  background: $card !important;
   padding: 14px;
   border-radius: 6px;
   height: 170px;
   width: 500px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+  border-bottom:  6px solid darken($card , 10%);
 }
 
 .container ul li:not(:first-child) {
@@ -46,26 +47,26 @@ body {
   border-radius: 50%;
   border: 4px solid #fff;
   position: absolute;
-  background: #535c7a;
+  background: #ffc880;
   left: -9.6px;
   top: -2px;
 }
 
 .container ul li > div {
   margin-left: 10px;
-  background: #535c7a !important;
+  background: $card  !important;
 }
 .container div .title, .container div .type {
   font-weight: 600;
   font-size: 26px;
-  background: #535c7a !important;
+  background: $card  !important;
 }
 .container div .info {
   font-weight: 300;
   font-size: 16px;
   padding: 2px;
   margin-top: 5px;
-  background: #535c7a !important;
+  background: $card  !important;
 }s
 .container div > div {
   margin-top: 5px;
@@ -87,13 +88,15 @@ body {
 }
 
 .continued {
-  margin-top: 30px;
-  color: white;
+  margin-top: 2rem;
   font-weight: 800;
   font-size: 20px;
-  margin-left: 7rem;
 }
 
 .continued * {
+  color: white;
+}
+
+.text {
   color: white;
 }
