@@ -9,7 +9,7 @@
 .item-wrapper {
   margin: 1rem 1rem 1rem 0;
   display: flex;
-  width: 750px;
+  width: 650px;
   h2 {
     font-size: 1.8rem;
     margin-bottom: 0;
@@ -19,12 +19,14 @@
 .item {
   max-width: 100%;
   min-width: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08);
 }
 
 .item-wrapper * {
   padding: 10px;
-  background: #242b35;
+  background: #535c7a;
   color: whitesmoke;
+  border-radius: 6px;
   text-decoration: none;
 }
 

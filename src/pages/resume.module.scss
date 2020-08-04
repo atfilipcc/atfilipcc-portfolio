@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container ul {
+  list-style: none;
+  padding: 1px 100px;
+  height: 100vh;
+  color: #fff;
+  font-size: 13px;
+}
+.container ul:before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  border-left: 4px dashed #fff;
+
+}
+.container ul li {
+  position: relative;
+  margin-left: 30px ;
+  background: #535c7a !important;
+  padding: 14px;
+  border-radius: 6px;
+  height: 170px;
+  width: 500px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+}
+
+.container ul li:not(:first-child) {
+  margin-top: 60px;
+}
+.container ul li > span {
+  width: 4px;
+  height: 100%;
+  background: #fff;
+  left: -30px;
+  top: 0;
+  position: absolute;
+}
+.container ul li > span:before, .container ul li > span:after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  position: absolute;
+  background: #535c7a;
+  left: -9.6px;
+  top: -2px;
+}
+
+.container ul li > div {
+  margin-left: 10px;
+  background: #535c7a !important;
+}
+.container div .title, .container div .type {
+  font-weight: 600;
+  font-size: 26px;
+  background: #535c7a !important;
+}
+.container div .info {
+  font-weight: 300;
+  font-size: 16px;
+  padding: 2px;
+  margin-top: 5px;
+  background: #535c7a !important;
+}s
+.container div > div {
+  margin-top: 5px;
+}
+.container span.number {
+  height: 100%;
+}
+.container span.number span {
+  position: absolute;
+  font-size: 20px;
+  left: -120px;
+  font-weight: bold;
+}
+.container span.number span:first-child {
+  top: 0;
+}
+.container span.number span:last-child {
+  top: 100%;
+}
+
+.continued {
+  margin-top: 30px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: 7rem;
+}
+
+.continued * {
+  color: white;
+}

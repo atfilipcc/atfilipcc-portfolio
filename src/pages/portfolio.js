@@ -37,7 +37,6 @@ const PortfolioPage = () => {
     <div>
       <Layout>
         <HeadHelmet title="Portfolio" />
-        <h1>My projects</h1>
         <section className={pfStyles.items}>
           {data.allContentfulPortfolioItem.edges.map((edge) => (
             <article className={pfStyles.itemWrapper} key={edge.node.title}>

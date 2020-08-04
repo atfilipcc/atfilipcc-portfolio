@@ -1,15 +1,16 @@
-$mainblue: #355070;
+$mainblue: #2f4858;
 $mainpurple: #6d597a;
 $mainorange: #ec5475;
 $mainlightorange: #e56b6f;
-$mainyellow: #ec9c71;
+$mainyellow: #bc7f9a;
 
 .nav-item {
-  color: $mainyellow;
+  color: #FFF;
   font-size: 1rem;
   margin-right: 1.3rem;
   text-decoration: none;
 }
+
 
 .header {
   display: flex;
@@ -24,19 +25,20 @@ $mainyellow: #ec9c71;
 }
 
 .title {
-  color: $mainlightorange;
+  color: #FFF;
   margin-right: 1rem;
   font-size: 3rem;
   text-decoration: none;
 }
 
 .title:hover {
-  color: $mainyellow;
+  color: $mainlightorange;
 }
 
 .nav-list {
   display: flex;
   list-style-type: none;
+  margin-left: 0;
 }
 
 .nav-item:hover {
@@ -44,5 +46,5 @@ $mainyellow: #ec9c71;
 }
 
 .active-nav-item {
-  color: $mainlightorange;
+  color: $mainblue;
 }

@@ -33,7 +33,7 @@ const Header = () => (
               activeClassName={styles.activeNavItem}
               to="/resume"
             >
-              Resume
+              About
             </Link>
           </li>
           <li>
