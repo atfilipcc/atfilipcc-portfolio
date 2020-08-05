@@ -22,7 +22,7 @@ const Contact = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="#FFFF" size="6x" />
+          <FontAwesomeIcon icon={faLinkedin} color="#FFFF" size="5x" />
         </a>
         <a
           title="GitHub"
@@ -31,7 +31,7 @@ const Contact = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <FontAwesomeIcon icon={faGithubSquare} size="6x" color="#FFFF" />
+          <FontAwesomeIcon icon={faGithubSquare} size="5x" color="#FFFF" />
         </a>
         <a
           title="Email"
@@ -40,7 +40,7 @@ const Contact = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <FontAwesomeIcon icon={faEnvelopeSquare} color="#FFFF" size="6x" />
+          <FontAwesomeIcon icon={faEnvelopeSquare} color="#FFFF" size="5x" />
         </a>
       </section>
     </Layout>

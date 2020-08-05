@@ -7,12 +7,12 @@ $mainlightorange: #e56b6f;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .header {
-  font-size: 10rem;
-  font-family: HenriDidot !important;
+  display: flex;
+  font-size: 3.5rem;
   color: whitesmoke;
   margin-bottom: 1rem;
   animation: fadeIn 2s;
@@ -39,6 +39,12 @@ $mainlightorange: #e56b6f;
 
 .active-nav-item {
   color: #FFF;
+}
+
+@media (min-width: 650px) {
+  .header {
+    font-size: 10rem;
+  }
 }
 
 @keyframes fadeIn {

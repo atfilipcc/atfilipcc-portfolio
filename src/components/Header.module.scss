@@ -7,7 +7,7 @@ $mainyellow: #bc7f9a;
 .nav-item {
   color: #FFF;
   font-size: 1rem;
-  margin-right: 1.3rem;
+  margin-right: 1rem;
   text-decoration: none;
 }
 
@@ -47,4 +47,11 @@ $mainyellow: #bc7f9a;
 
 .active-nav-item {
   color: $mainblue;
+}
+
+@media (min-width: 768px) {
+  .nav-item {
+    font-size: 1rem;
+    margin-right: 1.5rem;
+  }
 }

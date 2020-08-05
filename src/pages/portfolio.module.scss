@@ -1,4 +1,4 @@
-$card: #8e87dc;
+$card: #aa8eff;
 
 .items {
   display: flex;
@@ -11,7 +11,7 @@ $card: #8e87dc;
 
 .item-wrapper {
   transition: all .2s ease-in-out;
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 0 0 0;
   display: flex;
   width: 100%;
   h2 {
@@ -24,7 +24,7 @@ $card: #8e87dc;
   width: 100%;
   max-width: 500px;
   border-radius: 6px;
-  border-bottom:  6px solid darken($card, 10%);
+  border-bottom:  6px solid darken($card, 7%);
 }
 
 .item-wrapper:hover {
@@ -50,5 +50,11 @@ $card: #8e87dc;
   margin: 0 10px 0 0;
   border: none;
   color: #FFF;
+}
+
+@media (min-width: 450px) {
+  .item-wrapper {
+    margin: 1rem 0 1rem 0;
+  }
 }
 
