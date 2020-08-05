@@ -4,6 +4,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import HeadHelmet from '../components/Head';
+import resume from '../../static/CV_Filip Cordas.pdf';
 
 import styles from './resume.module.scss';
 
@@ -15,7 +16,7 @@ const Resume = () => (
       and animals. Here is a short summary of my career so far.
     </p>
     <div className={styles.continued}>
-      <a className={styles.link} href="../../static/CV_Filip Cordas.pdf" download>
+      <a className={styles.link} href={resume} download>
         Get my entire resume here.
       </a>
     </div>
