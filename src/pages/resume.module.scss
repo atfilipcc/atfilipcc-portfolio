@@ -13,6 +13,9 @@ $card: #aa8eff;
   color: #FFFF;
 }
 
+.continued * {
+  color: #FFFF;
+}
 
 .timeline{
   position: relative;
@@ -32,10 +35,6 @@ $card: #aa8eff;
 
 .timeline__group{
   position: relative;
-}
-
-.timeline__group:not(:first-of-type){
-  margin-top: 4rem;
 }
 
 .timeline__year{
@@ -113,7 +112,7 @@ $card: #aa8eff;
 
 
   .timeline__group{
-    padding-top: 40px;
+    padding-top: 1rem;
   }
 
   .timeline__box{

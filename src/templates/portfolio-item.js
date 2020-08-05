@@ -41,7 +41,6 @@ const portfolioItem = ({ data }) => {
     <Layout>
       <HeadHelmet title={data.contentfulPortfolioItem.title} />
       <h1 className={styles.title}>{data.contentfulPortfolioItem.title}</h1>
-      <br />
       <h4 className={styles.title}>{data.contentfulPortfolioItem.date}</h4>
       <br />
       <section className={styles.icons}>
@@ -55,7 +54,6 @@ const portfolioItem = ({ data }) => {
       <br />
       <section className={styles.richText}>
         {documentToReactComponents(data.contentfulPortfolioItem.body.json, options)}
-        <br />
       </section>
     </Layout>
   );

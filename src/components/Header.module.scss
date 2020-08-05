@@ -18,6 +18,7 @@ $mainyellow: #bc7f9a;
   padding: 2% 0 0 0;
   margin-bottom: 5%;
   justify-content: flex-start;
+  padding-top: 1rem;
 }
 
 .header * {
@@ -32,7 +33,7 @@ $mainyellow: #bc7f9a;
 }
 
 .title:hover {
-  color: $mainlightorange;
+  color: #ff9b8e;
 }
 
 .nav-list {
@@ -42,7 +43,7 @@ $mainyellow: #bc7f9a;
 }
 
 .nav-item:hover {
-  color: $mainlightorange;
+  color: #ff9b8e;
 }
 
 .active-nav-item {
