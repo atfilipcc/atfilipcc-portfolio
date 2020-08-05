@@ -32,10 +32,6 @@ $mainyellow: #bc7f9a;
   text-decoration: none;
 }
 
-.title:hover {
-  color: #ff9b8e;
-}
-
 .nav-list {
   display: flex;
   list-style-type: none;
@@ -43,7 +39,7 @@ $mainyellow: #bc7f9a;
 }
 
 .nav-item:hover {
-  color: #ff9b8e;
+  color: $mainblue;
 }
 
 .active-nav-item {
