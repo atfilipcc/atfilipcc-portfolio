@@ -30,6 +30,7 @@ body, *, html {
   // background-position: 10%, 30%, 50%, 70%, 90%, 0;
   background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;
   background-attachment: fixed;
+  background-repeat: repeat-y;
 }
 
 @font-face {
