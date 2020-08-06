@@ -16,21 +16,14 @@ body, *, html {
   background-position-x: 0%, 0%, 0%, 0%, 0%, 0%;
   background-position-y: 0%, 0%, 0%, 0%, 0%, 0%;
   background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
-  background-size: auto, auto, auto, auto, auto, auto;
+  background-size: 150%;
   background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    linear-gradient(120deg, #ff9b8e 0%, #ffd48e 100%) no-repeat;
-  background-position-x: 0%, 0%, 0%, 0%, 0%, 0%;
-  background-position-y: 0%, 0%, 0%, 0%, 0%, 0%;
-  background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
-  background-size: auto, auto, auto, auto, auto, auto;
-  // background-position: 10%, 30%, 50%, 70%, 90%, 0;
-  background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;
-  background-attachment: fixed;
-  background-repeat: repeat-y;
+  linear-gradient(120deg, #ff9b8e 0%, #ffd48e 100%) no-repeat;
+  background-attachment: scroll;
+}
+
+* {
+  background-attachment: fixed !important;
 }
 
 @font-face {
