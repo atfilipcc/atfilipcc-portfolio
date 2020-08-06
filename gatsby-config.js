@@ -9,6 +9,9 @@ module.exports = {
   siteMetadata: {
     title: 'Portfolio',
     author: 'Filip Cordas',
+    siteUrl: 'https://www.atfilipcc.com',
+    description: 'Filips developer portfolio webpage.',
+
   },
   plugins: [
     {
@@ -18,6 +21,7 @@ module.exports = {
           {
             family: `Roboto`,
             subsets: [`latin`],
+            variants: [`400`, `700`, `800`, `500`, `300`],
           },
           {
             family: `Open Sans`,
