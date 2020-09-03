@@ -26,7 +26,7 @@ const Resume = () => (
           <div className={styles.timeline__box}>
             <div className={styles.timeline__date}>
               <span className={styles.timeline__day}>2020</span>
-              <span className={styles.timeline__month}>JUNE</span>
+              <span className={styles.timeline__month}>AUGUST</span>
             </div>
             <div className={styles.timeline__post}>
               <div className={styles.timeline__content}>

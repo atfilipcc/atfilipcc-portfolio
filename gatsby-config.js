@@ -27,6 +27,10 @@ module.exports = {
             family: `Open Sans`,
             variants: [`400`, `700`],
           },
+          {
+            family: `Alata`,
+            variants: [`400`, `700`, `900`]
+          },
         ],
       },
     },

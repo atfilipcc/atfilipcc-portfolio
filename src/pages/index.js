@@ -1,13 +1,20 @@
 import React from "react";
 import { Link } from 'gatsby';
 import HeadHelmet from '../components/Head';
+import ReactTypingEffect from 'react-typing-effect';
 
 import styles from './index.module.scss';
 
 const Home = () => (
   <div className={styles.wrapper}>
     <HeadHelmet title="Home" />
-    <h1 className={styles.header}>welcome :-)</h1>
+    <ReactTypingEffect
+      text={['HI. I AM FILIP.', 'WELCOME :-)']}
+      speed={80}
+      typingDelay={500}
+      eraseDelay={300}
+      className={styles.header}
+    />
     <nav>
       <ul className={styles.navList}>
         <li>
