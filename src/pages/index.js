@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'gatsby';
 import HeadHelmet from '../components/Head';
-import ReactTypingEffect from 'react-typing-effect';
+import ReactTypingEffect from '../vendor/react-typing-effect';
 
 import styles from './index.module.scss';
 
