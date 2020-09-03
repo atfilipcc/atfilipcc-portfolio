@@ -47,7 +47,8 @@ $mainlightorange: #e56b6f;
 }
 
 .cursor {
-  color: white;
+  color: white !important;
+  background-color: white;
 }
 
 @media (min-width: 650px) {
