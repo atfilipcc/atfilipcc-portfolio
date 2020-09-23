@@ -31,6 +31,10 @@ module.exports = {
             family: `Alata`,
             variants: [`400`, `700`, `900`]
           },
+          {
+          family: `Inter`,
+          variants: [`400`, `700`, `800`, `500`, `300`],
+          },
         ],
       },
     },

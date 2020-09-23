@@ -1,7 +1,6 @@
 $mainlightorange: #e56b6f;
 
 html {
-  font-family: Roboto, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -31,11 +30,6 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-a:active,
-a:hover {
-  outline-width: 0;
-}
-
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -59,7 +53,7 @@ h1 {
 
 mark {
   background-color: #ff0;
-  color: #000;
+  color: #47536b;
 }
 
 small {
@@ -222,8 +216,8 @@ html {
 }
 
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: Roboto, sans-serif;
+  color: #47536b;
+  font-family: Alata, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

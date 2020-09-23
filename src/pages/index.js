@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from 'gatsby';
 import HeadHelmet from '../components/Head';
 import Typing from 'react-typing-animation';
-import Cursor from '../components/Cursor.js';
 
 import styles from './index.module.scss';
 
@@ -15,7 +14,6 @@ const Home = () => (
       className={styles.header}
       loop={true}
       cursorClassName={styles.cursor}
-      // cursor={<Cursor />}
     >
       <div>
       HI.

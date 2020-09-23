@@ -1,25 +1,13 @@
-$mainblackblue: #100e17;
-$mainblue: #355070;
-$mainpurple: #6d597a;
-$mainorange: #db667f;
-$mainlightorange: #f35f64;
-$mainyellow: #f88547;
-$paletteblue: #535c7a;
-
-body, *, html {
-  background: -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-    -webkit-linear-gradient(-390deg, #dcecfe 0%, #f5e1ee 100%) no-repeat;
-  background-position-x: 0%, 0%, 0%, 0%, 0%, 0%;
-  background-position-y: 0%, 0%, 0%, 0%, 0%, 0%;
-  background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
-  background-size: 150%;
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y,
-  linear-gradient(120deg, #ff9b8e 0%, #ffd48e 100%) no-repeat;
-  background-attachment: scroll;
+body,
+*,
+html {
+  background-color: #f5f8ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ffffff' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e6e6e6' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23ffffff' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e6e4eb' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ffffff' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23e7e3f0' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23ffffff' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e7e1f5' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ffffff' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e7e0fa' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ffffff' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23e7deff' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #47536b;
 }
 
 * {

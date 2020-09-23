@@ -1,11 +1,8 @@
-$mainblue: #2f4858;
-$mainpurple: #6d597a;
-$mainorange: #ec5475;
-$mainlightorange: #e56b6f;
-$mainyellow: #bc7f9a;
+$mainblue: #47536b;
+$mainpurple: #6260e0;
 
 .nav-item {
-  color: #FFF;
+  color: $mainblue;
   font-size: 1rem;
   margin-right: 1rem;
   text-decoration: none;
@@ -14,18 +11,15 @@ $mainyellow: #bc7f9a;
 
 .header {
   display: flex;
-  background-color: #100e17;
-  margin: 1rem;
+  padding: 1rem 0 0 3rem;
   justify-content: flex-start;
-  padding-top: 1rem;
-}
-
-.header * {
-  background-color: #100e17;
 }
 
 .title {
-  color: #FFF;
+  font-family: Alata;
+  font-weight: 400;
+  color: $mainblue;
+  letter-spacing: 1px;
   margin-right: 1rem;
   font-size: 3rem;
   text-decoration: none;
@@ -38,11 +32,12 @@ $mainyellow: #bc7f9a;
 }
 
 .nav-item:hover {
-  color: $mainblue;
+  color: $mainpurple;
 }
 
 .active-nav-item {
-  color: $mainblue;
+  color: $mainpurple;
+  font-weight: 900;
 }
 
 @media (min-width: 768px) {
