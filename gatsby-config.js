@@ -19,11 +19,6 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Roboto`,
-            subsets: [`latin`],
-            variants: [`400`, `700`, `800`, `500`, `300`],
-          },
-          {
             family: `Open Sans`,
             variants: [`400`, `700`],
           },
