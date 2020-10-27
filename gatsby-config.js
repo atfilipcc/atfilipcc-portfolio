@@ -24,11 +24,11 @@ module.exports = {
           },
           {
             family: `Alata`,
-            variants: [`400`, `700`, `900`]
+            variants: [`400`, `700`, `900`],
           },
           {
-          family: `Inter`,
-          variants: [`400`, `700`, `800`, `500`, `300`],
+            family: `Inter`,
+            variants: [`400`, `700`, `800`, `500`, `300`],
           },
         ],
       },
@@ -63,6 +63,14 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true, // defaults to false
+        jsxPragma: `React`, // defaults to "React"
+        allExtensions: true, // defaults to false
       },
     },
   ],

@@ -1,8 +1,9 @@
-const path = require('path');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { resolve } = require('path');
 
 module.exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  const portfolioTemplate = path.resolve('./src/templates/portfolio-item.js');
+  const portfolioTemplate = resolve('./src/templates/portfolio-item.tsx');
   const response = await graphql(`
     query {
       allContentfulPortfolioItem {
@@ -14,6 +15,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
+
   response.data.allContentfulPortfolioItem.edges.forEach((edge) => {
     createPage({
       component: portfolioTemplate,

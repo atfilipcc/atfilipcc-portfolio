@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-const NotFound = () => (
+const NotFound : React.FunctionComponent = () => (
   <Layout>
     <h1>
       Oops! Page not found

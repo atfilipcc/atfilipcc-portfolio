@@ -5,16 +5,18 @@ import HeadHelmet from '../components/Head';
 
 import pfStyles from './portfolio.module.scss';
 
-const renderTechButtons = (edge) => {
+
+
+const renderTechDiv = (edge) => {
   const techStack = edge.node.tech.split(',');
-  return techStack.map((tech) => (
-    <button className={`${pfStyles.button_tech} ${tech.toLowerCase()}`} type="button">
+  return techStack.map((tech: string) => (
+    <div key={tech} className={`${pfStyles.button_tech} ${tech.toLowerCase()}`}>
       {tech}
-    </button>
+    </div>
   ));
 };
 
-const PortfolioPage = () => {
+const PortfolioPage : React.FunctionComponent = () => {
   const data = useStaticQuery(graphql`
     query {
       allContentfulPortfolioItem(sort: { fields: date, order: DESC }) {
@@ -42,7 +44,7 @@ const PortfolioPage = () => {
             <article className={pfStyles.itemWrapper} key={edge.node.title}>
               <Link className={pfStyles.item} to={`/portfolio/${edge.node.slug}`}>
                 <h2>{edge.node.title}</h2>
-                <div className={pfStyles.button_wrapper}>{renderTechButtons(edge)}</div>
+                <div className={pfStyles.button_wrapper}>{renderTechDiv(edge)}</div>
                 <h6>{edge.node.date}</h6>
                 <p>{edge.node.description}</p>
               </Link>

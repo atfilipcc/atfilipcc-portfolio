@@ -1,7 +1,7 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
+import { Document } from '@contentful/rich-text-types';
 import { graphql } from 'gatsby';
-import { PropTypes } from 'prop-types';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
@@ -10,7 +10,6 @@ import Layout from '../components/Layout';
 import HeadHelmet from '../components/Head';
 
 import styles from './portfolio-item.module.scss';
-
 
 export const query = graphql`
 query($slug: String!) {
@@ -26,10 +25,24 @@ query($slug: String!) {
 }
 `;
 
-const portfolioItem = ({ data }) => {
-  console.log(data.contentfulPortfolioItem);
+interface Props {
+    data: {
+      contentfulPortfolioItem: {
+        githubLink : string,
+        liveLink : string,
+        title : string,
+        date : string,
+        body: {
+          json : Document
+        }
+      }
+  }
+}
+
+const portfolioItem : React.FunctionComponent<Props> = ({ data }) => {
   const options = {
     renderNode: {
+      // eslint-disable-next-line react/display-name
       "embedded-asset-block": (node) => {
         const alt = node.data.target.fields.title["en-US"];
         const { url } = node.data.target.fields.file["en-US"];
@@ -57,10 +70,6 @@ const portfolioItem = ({ data }) => {
       </section>
     </Layout>
   );
-};
-
-portfolioItem.propTypes = {
-  data: PropTypes.objectOf(PropTypes.object).isRequired,
 };
 
 export default portfolioItem;

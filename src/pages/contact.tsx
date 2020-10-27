@@ -7,7 +7,7 @@ import HeadHelmet from '../components/Head';
 
 import styles from './contact.module.scss';
 
-const Contact = () => (
+const Contact : React.FunctionComponent = () => (
   <div>
     <Layout>
       <HeadHelmet title="Contact" />

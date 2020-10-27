@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import styles from './Header.module.scss';
 
-const Header = () => (
+const Header : React.FunctionComponent = () => (
   <div className={styles.header}>
     <header className={styles.text}>
       <h1>
