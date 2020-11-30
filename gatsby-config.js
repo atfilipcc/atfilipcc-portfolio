@@ -15,21 +15,12 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Alata`,
-            variants: [`400`, `700`, `900`],
-          },
-          {
-            family: `Inter`,
-            variants: [`400`, `700`, `800`, `500`, `300`],
-          },
+            `Open Sans\:400,700`,
+            `Alata\:400,700,900`,
+            `Inter\:400,700,800,500,300`,
         ],
       },
     },
