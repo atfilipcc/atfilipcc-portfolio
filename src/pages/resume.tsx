@@ -11,8 +11,7 @@ const Resume : React.FunctionComponent = () => (
   <Layout>
     <HeadHelmet title="Resume" />
     <p className={styles.text}>
-      I love learning new things. It is the reason I became a developer! I also love music, biking
-      and animals. Here is a short summary of my career so far.
+      I love learning new things; it is the reason I became a developer. Here is a short summary of my career so far.
     </p>
     <div className={styles.continued}>
       <a className={styles.link} href={resume} download>
